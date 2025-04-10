@@ -17,7 +17,7 @@ Designed using a mobile-first approach to ensure compatibility across all screen
 Structured using functional components and organized folder structure for better readability and maintenance.
 
 **JSX + Modern JavaScript (ES6+):**  
-Utilizes modern JavaScript features including hooks `useState` for efficient state and lifecycle management.
+Utilizes modern JavaScript features including `useState` hook for efficient state and lifecycle management.
 
 ## Technologies Used:
 
@@ -25,4 +25,4 @@ Utilizes modern JavaScript features including hooks `useState` for efficient sta
 
 **JSX:** JavaScript XML syntax used in React for writing HTML inside JavaScript.
 
-**CSS3:** For styling with Flexbox, Grid, transitions, and media queries.
+**CSS3:** For styling with Flexbox, transitions, and media queries.
