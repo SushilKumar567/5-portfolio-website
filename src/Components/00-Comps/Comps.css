@@ -1,0 +1,64 @@
+/* //////////////////////// --- logo --- //////////////////////////// */
+
+.logo {
+  padding: 0 10px 0 40px;
+  width: 35px;
+  font-size: 25px;
+  border-radius: 5px 0 0 5px;
+  background-color: #ced8e2;
+}
+
+.logo span {
+  color: #b75b48;
+}
+
+/* ////////////////////// --- call to button --- //////////////////////// */
+
+.call-to-btn {
+  width: 175px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  font-size: 13px;
+  letter-spacing: 1.25px;
+  font-weight: 500;
+  color: #1d1d1f;
+  text-decoration: none;
+  background-color: #ced8e2;
+  background-color: #b75b48ab;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.25s ease-out;
+}
+
+.btn .icon {
+  font-size: 10px;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #b75b48;
+  cursor: pointer;
+}
+
+.b-icon {
+  margin-right: 7.5px;
+  font-size: 15px;
+}
+
+.s-icon {
+  font-size: 20px;
+  transition: 0.25s ease-out;
+  color: #1d1d1f;
+}
+
+.s-icon:hover {
+  cursor: pointer;
+  color: #b75b48;
+}

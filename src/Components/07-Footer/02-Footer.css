@@ -1,0 +1,13 @@
+.footer {
+  background-color: #dadadc;
+  padding: 15px;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}

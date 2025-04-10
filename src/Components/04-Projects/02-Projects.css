@@ -1,0 +1,86 @@
+.projects {
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  margin: 0 92.5px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.projects .top {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-item {
+  border-radius: 10px;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(0.5turn, #f5f5f7, #fff);
+  gap: 20px;
+}
+
+.project-description .project-title {
+  background: linear-gradient(25deg, #b75b48, #0090f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22.5px;
+  font-weight: 500;
+}
+
+.project-item:nth-child(odd) {
+  flex-direction: row;
+}
+
+.project-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.project-image {
+  max-width: 25%;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.project-image:hover {
+  transform: scale(1.025);
+}
+
+.project-description {
+  flex: 1;
+  max-width: 45%;
+}
+
+.project-description h3 {
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.project-description p {
+  margin: 15px 0;
+  color: #555;
+}
+
+.project-description .technologies {
+  font-size: 19px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #0090f7;
+}
+.project-description a {
+  display: inline-block;
+  margin-top: 1rem;
+}
