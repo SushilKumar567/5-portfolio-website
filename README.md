@@ -17,7 +17,7 @@ Designed using a mobile-first approach to ensure compatibility across all screen
 Structured using functional components and organized folder structure for better readability and maintenance.
 
 **JSX + Modern JavaScript (ES6+):**  
-Utilizes modern JavaScript features including hooks (`useState`) for efficient state and lifecycle management.
+Utilizes modern JavaScript features including hooks `useState` for efficient state and lifecycle management.
 
 ## Technologies Used:
 
