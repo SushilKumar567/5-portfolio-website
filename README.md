@@ -25,4 +25,4 @@ Utilizes modern JavaScript features including `useState` hook for efficient stat
 
 **JSX:** JavaScript XML syntax used in React for writing HTML inside JavaScript.
 
-**CSS3:** For styling with Flexbox, transitions, and media queries.
+**CSS3:** For styling with flexbox, transitions, and media queries.
