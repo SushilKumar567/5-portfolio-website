@@ -19,7 +19,9 @@ const CallTo = () => {
   return (
     <div className="call-to-btn">
       <a
-        href="/5-portfolio-website/sushil-kumar-front-end-web-developer.pdf"
+        href={`${
+          import.meta.env.BASE_URL
+        }sushil-kumar-front-end-web-developer.pdf`}
         className="btn"
         download
       >
