@@ -12,7 +12,7 @@ const Projects = () => {
       description:
         "A user-friendly calculator app designed for basic arithmetic operations, including addition, subtraction, multiplication, division, and modulus. It offers a clean design with smooth error handling to deliver a seamless user experience.",
       technologies: ["HTML", "CSS", "JS", "and React"],
-      link: "https://github.com/username/calculator-app",
+      link: "https://sushilkumar567.github.io/6-calculator-app/",
       image: calculatorApp,
     },
     {
@@ -20,7 +20,7 @@ const Projects = () => {
       description:
         "This To-do App provides an efficient solution for task management, allowing users to add, delete, and mark tasks as complete. With a clean, intuitive interface and effective error handling, it ensures a seamless and user-friendly experience.",
       technologies: ["HTML", "CSS", "JS", "and React"],
-      link: "https://github.com/username/todo-list-app",
+      link: "https://sushilkumar567.github.io/7-todo-list-app/",
       image: todolistApp,
     },
     {
@@ -28,7 +28,7 @@ const Projects = () => {
       description:
         "This weather app provides real-time weather updates, including temperature, humidity, and wind speed for any city. It features dynamic weather icons and a responsive design for an optimal user experience.",
       technologies: ["HTML", "CSS", "JS", "and React"],
-      link: "https://github.com/username/weather-app",
+      link: "https://sushilkumar567.github.io/8-weather-app/",
       image: weatherApp,
     },
   ];
