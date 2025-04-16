@@ -19,9 +19,9 @@ const CallTo = () => {
   return (
     <div className="call-to-btn">
       <a
-        href="./src/assets/sushil-kumar-front-end-web-developer.pdf"
+        href="/5-portfolio-website/sushil-kumar-front-end-web-developer.pdf"
         className="btn"
-        download="sushil-kumar-front-end-web-developer.pdf"
+        download
       >
         <FontAwesomeIcon icon={faBriefcase} className="b-icon" />
         HIRE ME
