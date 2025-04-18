@@ -39,6 +39,7 @@
   .skills {
     flex-direction: column-reverse;
     margin: 10px;
+    margin-bottom: -25px;
     padding-top: 50px;
   }
   .skills-right {
@@ -80,13 +81,14 @@
     padding: 0 50px;
   }
 }
-@media (min-width: 410px) and (max-width: 455px) {
-  .skill-item {
-    width: 125px;
-  }
-}
+
 @media (min-width: 456px) and (max-width: 574px) {
   .skill-item {
     width: 140px;
+  }
+}
+@media (min-width: 410px) and (max-width: 455px) {
+  .skill-item {
+    width: 125px;
   }
 }
