@@ -78,7 +78,11 @@
   .about {
     padding-top: 50px;
   }
+  .about .left {
+    margin-bottom: 15px;
+    height: 250px;
+  }
   .about .right {
-    height: 350px;
+    height: 425px;
   }
 }
