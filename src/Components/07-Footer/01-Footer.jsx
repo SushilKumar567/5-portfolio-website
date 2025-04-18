@@ -5,7 +5,9 @@ import "./03-Media.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>© {new Date().getFullYear()} Sushil Kumar. All rights reserved.</p>
+      <p id="sml-text">
+        © {new Date().getFullYear()} Sushil Kumar. All rights reserved.
+      </p>
     </footer>
   );
 };

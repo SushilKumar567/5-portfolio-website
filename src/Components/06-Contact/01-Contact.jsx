@@ -34,7 +34,7 @@ const Contact = () => {
       <p className="title-2">
         Reach out with any relevant roles or collaborations
       </p>
-      <p className="title-intro1 title-intro2">
+      <p className="title-intro1 title-intro2" id="sml-text">
         Have a project, collaboration, or idea to discuss? I’m always open to
         new opportunities and connections. Feel free to reach out—I’d love to
         hear from you!

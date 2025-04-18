@@ -44,7 +44,7 @@ const Skills = () => {
         <h2 className="title-2">
           Skills for responsive <br /> & engaging web solutions
         </h2>
-        <p className="title-intro1">
+        <p className="title-intro1" id="sml-text">
           Equipped with a versatile skill set, I bring together design and
           development to craft efficient, responsive, and visually appealing web
           solutions.

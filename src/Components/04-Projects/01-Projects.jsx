@@ -38,7 +38,7 @@ const Projects = () => {
       <div className="top">
         <h1 className="title-1">MY PROJECTS</h1>
         <h1 className="title-2">Dynamic projects for engaging web solutions</h1>
-        <p className="title-intro1 title-intro2">
+        <p className="title-intro1 title-intro2" id="sml-text">
           A curated collection of personal projects that demonstrates my
           development skills, creativity, and commitment to delivering
           high-quality web solutions.
@@ -56,7 +56,9 @@ const Projects = () => {
               />
               <div className="project-description">
                 <h3 className="project-title">{project.title}</h3>
-                <p className="title-intro1">{project.description}</p>
+                <p className="title-intro1" id="sml-text">
+                  {project.description}
+                </p>
                 <p>
                   <h4 className="technologies">Technologies</h4>
                   {project.technologies.join(", ")}

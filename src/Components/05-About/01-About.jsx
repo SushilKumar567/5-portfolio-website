@@ -26,7 +26,7 @@ const About = () => {
         <p className="title-2">
           I'm a frontend <br /> web developer
         </p>
-        <p className="title-intro1">
+        <p className="title-intro1" id="sml-text">
           I am a front-end developer skilled in React.js and Tailwind CSS,
           dedicated to building visually appealing web solutions with a strong
           focus on user experience.
@@ -43,7 +43,9 @@ const About = () => {
               {section.icon}
               <h3 className="sub-title">{section.title}</h3>
             </div>
-            <p className="section-description">{section.description}</p>
+            <p className="section-description" id="sml-text">
+              {section.description}
+            </p>
           </div>
         ))}
       </div>

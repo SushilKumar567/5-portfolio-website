@@ -63,6 +63,9 @@
     font-size: 25px;
     font-weight: 500;
   }
+  #sml-text {
+    font-size: 15px;
+  }
 }
 @media (min-width: 650px) and (max-width: 1000px) {
   .title-2 {
