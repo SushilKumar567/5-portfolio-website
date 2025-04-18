@@ -55,9 +55,3 @@
     height: 265px;
   }
 }
-@media (max-width: 500px) {
-  .menu-mobile {
-    width: 150px;
-    height: 225px;
-  }
-}

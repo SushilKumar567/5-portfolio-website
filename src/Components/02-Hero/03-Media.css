@@ -50,6 +50,9 @@
   }
 }
 @media (max-width: 650px) {
+  .hero-right {
+    height: 300px;
+  }
   .hero-right h2 {
     margin-left: 10px;
     font-size: 25px;
