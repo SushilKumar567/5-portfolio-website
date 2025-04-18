@@ -63,6 +63,11 @@
   }
 }
 
+@media (min-width: 844px) and (max-width: 1000px) {
+  .skills-left {
+    height: 300px;
+  }
+}
 @media (min-width: 575px) and (max-width: 1000px) {
   .skills-left {
     width: 85%;
@@ -75,8 +80,13 @@
     padding: 0 50px;
   }
 }
-@media (min-width: 844px) and (max-width: 1000px) {
-  .skills-left {
-    height: 300px;
+@media (min-width: 410px) and (max-width: 455px) {
+  .skill-item {
+    width: 125px;
+  }
+}
+@media (min-width: 456px) and (max-width: 574px) {
+  .skill-item {
+    width: 140px;
   }
 }
