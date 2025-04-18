@@ -75,6 +75,9 @@
   }
 }
 @media (max-width: 550px) {
+  .about {
+    padding-top: 50px;
+  }
   .about .right {
     height: 350px;
   }
