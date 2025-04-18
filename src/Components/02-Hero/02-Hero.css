@@ -3,8 +3,9 @@
   border-radius: 10px;
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0 75px;
   margin-bottom: -100px;
 }
 
@@ -12,7 +13,7 @@
   border-radius: 10px;
   padding-left: 100px;
   height: 500px;
-  width: 42.5%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,7 +73,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 35%;
+  width: 40%;
   letter-spacing: 1.5px;
   font-size: 17px;
   color: #1d1d1f;

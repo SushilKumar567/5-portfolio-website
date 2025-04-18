@@ -1,7 +1,14 @@
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .hero {
+    margin: 0 35px;
+    margin-bottom: -100px;
+  }
+}
+
 @media (max-width: 1000px) {
   .hero {
     flex-direction: column-reverse;
-    margin: 0 25px;
+    margin: 0 10px;
   }
 
   .hero-right {
@@ -14,7 +21,8 @@
 
   .hero .hero-right img {
     margin-bottom: 0;
-    width: 175px;
+    margin-left: 10px;
+    width: 150px;
   }
 
   .hero .hero-left {
@@ -28,7 +36,28 @@
   }
 
   .hero .hero-left p {
-    width: 75%;
+    width: 95%;
     border-radius: 5px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .hero-right h2 {
+    font-size: 30px;
+  }
+  .hero .hero-right img {
+    width: 175px;
+  }
+}
+@media (max-width: 650px) {
+  .hero-right h2 {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .hero-left h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 45px;
+    margin-bottom: 20px;
   }
 }
