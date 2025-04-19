@@ -5,6 +5,7 @@
   flex-direction: column;
   padding-top: 100px;
   margin: 0 75px;
+  margin-bottom: -25px;
 }
 
 .projects-container {
